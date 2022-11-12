@@ -498,9 +498,7 @@ PRODUCT_PACKAGES += \
 
 # Shim
 PRODUCT_PACKAGES += \
-    libwatermark_shim \
-    libpiex_shim
-
+    libwatermark_shim 
 # System
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.binary_xml=false
